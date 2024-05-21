@@ -1,8 +1,4 @@
-body {
-    background-image: url('https://media.discordapp.net/attachments/1232768131148288040/1242258926402142208/FON3.png?ex=664dd808&is=664c8688&hm=0c536a85cf4f12f9dac0a8958256d4f39dc23fd1f5510c2d4e07340f57cf09c6&=&format=webp&quality=lossless&width=1606&height=903');
-    background-size: cover;
-    background-repeat: no-repeat;
-}
+
 
 .header {
     display: flex;
