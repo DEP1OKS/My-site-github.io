@@ -117,6 +117,75 @@
             margin: 20px auto;
             max-width: 600px;
         }
+
+        
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: transparent;
+    color: white;
+    border-radius: 30px; /* Закругляем края */
+    border: 2px solid transparent; /* Добавляем обводку */
+}
+
+.header h1 {
+    margin-left: 25px;
+    font-family: Arial, sans-serif; /* Изменяем шрифт текста */
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+    margin-right: 25px; /* Смещаем содержимое вправо */
+}
+
+
+
+
+.custom-button3:hover {
+transform: scale(1.1); /* Эффект увеличения при наведении */
+box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Изменяем тень при наведении */
+}
+
+.custom-button:hover, .custom-button2:hover, .custom-button2:hover {
+    background-color: #001f40;
+    border-color: #156cee;
+}
+
+.description {
+    text-align: center;
+    margin-top: 20px; /* Уменьшаем верхний отступ до 20px */
+}
+
+
+h3 {
+    font-family: 'Arial', sans-serif;
+    font-size: 32px;
+    color: #00b4ff;
+    position: absolute; /* Абсолютное позиционирование */
+    margin-left: 950px; /* Смещаем текст вправо */
+    margin-top: -400px; /* Смещаем текст вверх */
+}
+
+.info {
+    display: none;
+}
+
+#show-info:checked ~ .info {
+    display: block;
+}
+
+#show-info {
+    display: none;
+}
+
+label {
+    cursor: pointer;
+}
+
     </style>
 </head>
 <body>
